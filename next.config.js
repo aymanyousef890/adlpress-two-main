@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output:"export",
   reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
   i18n: {
     locales: ["ar", "en"],
