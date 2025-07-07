@@ -1,11 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
-  i18n: {
-    locales: ["ar", "en"],
-    defaultLocale: "ar",
-    localeDetection: false
-  },
+ output:"export",
   images: {
     domains: ["pasteboard.co","images.unsplash.com", "s3-alpha-sig.figma.com", "res.cloudinary.com"]
   },
