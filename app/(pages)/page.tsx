@@ -1,6 +1,6 @@
 "use client"
 import HeroSection from '@/components/pages/home/HeroSection'
-import ProductsSection from '@/components/pages/home/ProductsSection';
+
 import CategoriesSection from '@/components/pages/home/categoriesSection';
 import Image from 'next/image';
 import AxiosApp from '@/lib/axios';
